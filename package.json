@@ -1,7 +1,7 @@
 {
   "name": "relist",
   "version": "0.1.1",
-  "description": "Notifications via Redis to Slack channel via Slackbot.",
+  "description": "Import from set to queue.",
   "main": "lib/index.js",
   "scripts": {
     "test": "./bin/test.sh",
