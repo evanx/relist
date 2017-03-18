@@ -1,0 +1,26 @@
+{
+  "name": "relist",
+  "version": "0.1.1",
+  "description": "Notifications via Redis to Slack channel via Slackbot.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./bin/test.sh",
+    "start": "node7 lib/index.js"
+  },
+  "author": {
+    "url": "https://twitter.com/@evanxsummers"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanx/relist.git"
+  },
+  "homepage": "https://github.com/evanx/relist",
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "get-set-default": "^0.1.0",
+    "lodash": "^4.17.4",
+    "redis-koa-app": "^0.9.11",
+    "render-html-rpf": "^0.1.2"
+  }
+}
